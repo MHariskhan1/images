@@ -48,7 +48,43 @@ p{
 } */
 
 /* Backgroud shorthand */
-body {
+/* body {
     background: red url(./assets/Panther.jpg) no-repeat;
     background-size: cover;
+} */
+
+/* Gradient */
+
+/* Linear Gradient */
+/* body {
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+} */
+/* #gradient {
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(red, yellow, green, violet,indigo,blue,orange);
+    width: 500px;
+    margin: auto;
+} */
+/* Radial Gradient */
+/* #gradient {
+    height: 200px;
+    background-color: red;
+    background-image:radial-gradient(yellow,green,orange);
+    width: 500px;
+    margin: auto;
+} */
+/* Conic Gradient */
+#gradient {
+    height: 100px;
+    background-color: red;
+    background-image:conic-gradient(yellow,green,rgb(43, 0, 255),red,violet);
+    width: 100px;
+    border-radius: 200px;
+    margin: auto;
+    size: 400px;
 }
