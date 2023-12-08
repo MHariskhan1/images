@@ -3,10 +3,20 @@
     width: 100px;
     height: 100px;
 } */
+
 /* Aligning images */
+
 /* img {
     margin-left:100px ;
 } */
-img {
+/* img {
     float: right;
+} */
+
+/* Centering Images */
+img {
+    border: 1px solid black;
+    margin: auto;
+    /* width: 300px;
+    display: block; */
 }
