@@ -14,9 +14,41 @@
 } */
 
 /* Centering Images */
-img {
+/* img {
     border: 1px solid black;
     margin: auto;
-    /* width: 300px;
-    display: block; */
+    width: 300px;
+    display: block;
+} */
+
+/* Using Background images */
+/* body {
+    background-image: url(./assets/Panther.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: white;
+} */
+/* Background image repating */
+/* body {
+    background-image: url(./assets/Panther.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    color: white;
+} */
+/* Background Position */
+/* body {
+    background-image: url(./assets/old-car.jpg);
+    background-repeat: no-repeat;
+   
+} */
+
+/* Backgroud shorthand */
+body {
+    background: red url(./assets/Panther.jpg) no-repeat;
+    background-size: cover;
 }
